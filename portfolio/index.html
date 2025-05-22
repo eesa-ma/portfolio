@@ -20,27 +20,27 @@
     <header>
         <nav class="flex items-end justify-around text-teal-950 bg-[#f9f8f3]">
             <!-- logo -->
-            <div class="text-5xl font-logo">eesa</div>
-            <ul class="flex space-x-4">
-                <li class="text-teal-500"><a href="#">( SERVICES )</a></li>
-                <li><a href="#">WORKS</a></li>
-                <li><a href="#">RESUME </a></li>
-                <li><a href="#">EXPERIENCES</a></li>
+            <div class="text-5xl font-logo"><a href="#">eesa</a></div>
+            <ul class="sm:flex space-x-4 hidden ">
+                <li class="text-teal-500"><a href="#services">( SERVICES )</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="/portfolio/doc/resume.pdf" target="_blank" rel="noopener noreferrer">RESUME </a></li>
+                <li><a href="#experience">EXPERIENCES</a></li>
             </ul>
             <!-- phone number -->
              <div class="flex items-center gap-2">
-                <div class="">+91 9072341909</div>
+                <div><a href="https://wa.me/qr/45KNTXBQPBUOG1" target="_blank" rel="noopener noreferrer">+91 9072341909</a></div>
                 <i class="fa-solid fa-phone fa-sm" style="color: #042f2e;"></i>
             </div>
         </nav>
     </header> 
     <main>
-        <section class="grid grid-cols-3 gap-2 px-30 py-10 bg-[#f9f8f3] h-max">
+        <section class="grid grid-col-1 sm:grid-cols-3 gap-2 px-30 py-10 bg-[#f9f8f3] h-max">
             <!-- left sie -->
            <div class="space-y-30 mt-10 text-left">
             <h1 class="text-6xl font-bold text-teal-950 font-poppins">Hey There, <br> I'm Eesa</h1>
-            <p class="text-red-400 font-medium underline underline-offset-2">eesama30april04@gmail.com</p>
-            <p class="text-teal-950 font-poppins"> <span class="text-5xl font-medium ">2</span> YEARS <br> EXPERIENCE</p>
+            <p class="text-red-400 font-medium underline underline-offset-2 hidden sm:block"><a href="mailto:eesama30april04@gmail.com">eesama30april04@gmail.com</a></p>
+            <p class="text-teal-950 font-poppins hidden sm:block"> <span class="text-5xl font-medium ">2</span> YEARS <br> EXPERIENCE</p>
            </div>
 
            <!-- center -->
@@ -54,12 +54,12 @@
                 <p class="text-teal-950  font-poppins text-2xl">
                     I develop beautifully simple<br /> things, And I love what I do.
                 </p>
-                <p class="text-teal-950 font-poppins text-2xl">I am a <span class="text-teal-500">Frontend Developer</span> <br> based in India.</p>
+                <p class="text-teal-950 font-poppins text-2xl hidden sm:block">I am a <span class="text-teal-500">Frontend Developer</span> <br> based in India.</p>
             </div>
         </section>
-        <section class="flex justify-around text-teal-900 h-max my-10 py-25 bg-white">
+        <section class="grid grid-col-1 sm:flex justify-around text-teal-900 h-max my-10 py-25 bg-white" id="services">
           <!-- right side -->
-          <div class="flex flex-col gap-10 font-medium text-lg">
+          <div class="flex flex-col gap-10 font-medium text-lg ">
             <div class="border-2 border-gray-100 rounded-2xl py-10 px-30 shadow-lg"><i class="fa-solid fa-desktop fa-xl"></i> Frontend Development</div>
             <div class="border-2 border-gray-100 rounded-2xl py-10 px-30 shadow-lg"><i class="fa-solid fa-desktop fa-xl"></i> Frontend Development</div>
             <div class="border-2 border-gray-100 rounded-2xl py-10 px-30 shadow-lg"><i class="fa-solid fa-desktop fa-xl "></i> Frontend Development</div>
@@ -77,23 +77,23 @@
           </div>
         </section>
         <!-- experience  section -->
-        <section class="bg-[#f9f8f3] h-max py-10 text-teal-950 items-center">
+        <section class="bg-[#f9f8f3] h-max py-10 text-teal-950 items-center" id="experience">
             <div class="flex justify-center">
                 <h1 class="text-6xl font-bold text-teal-950 font-poppins">My Work Experience</h1>
             </div>
-            <div class="flex mx-50 mt-10 gap-20 ">
-              <div class="flex flex-col gap-25 px-20">
+            <div class="flex sm:mx-50 mt-10 gap-20 ">
+              <div class="hidden  sm:flex flex-col gap-25 sm:px-20">
                 <div>
-                  <h2 class="font-medium">Self-Employed, Brisbane</h2>
-                  <p class="text-sm">Sep 2014 - August 2015</p>
+                  <h2 class="font-medium">DataHex</h2>
+                  <p class="text-sm">May 2024</p>
                 </div>
                 <div>
-                  <h2 class="font-medium">New Man Services</h2>
-                  <p class="text-sm">September 2015 - March 2016</p>
+                  <h2 class="font-medium">CSRBOX</h2>
+                  <p class="text-sm">June 2024</p>
                 </div>
                 <div>
-                  <h2 class="font-medium">New Man Services</h2>
-                  <p class="text-sm">March 2016 - present</p>
+                  <h2 class="font-medium">Cucek coding club</h2>
+                  <p class="text-sm">August 2024 - present</p>
                 </div>
               </div>
               <!-- line -->
@@ -101,62 +101,62 @@
               <div class="flex flex-col gap-10 w-1/3">
                 <div class="relative">
                    <div class="absolute -left-22 w-4 h-4 bg-teal-600 rounded-full"></div>
-                  <h2 class="font-medium">Visual Designer</h2>
-                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae sit ipsam reiciendis consequuntur quidem natus mollitia nam rem, assumenda odio architecto eius ea nulla ut totam enim et nesciunt.</p>
+                  <h2 class="font-medium">intern </h2>
+                  <p class="text-sm">Completed an internship at a digital solutions firm focused on helping businesses with digital transformation. Gained exposure to digital consultancy practices and contributed to projects aimed at enhancing client digital presence and operational efficiency.</p>
                 </div>
                 <div class="relative">
                   <div class="absolute -left-22 w-4 h-4 bg-red-600 rounded-full"></div>
-                  <h2 class="font-medium">Visual Designer</h2>
-                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae sit ipsam reiciendis consequuntur quidem natus mollitia nam rem, assumenda odio architecto eius ea nulla ut totam enim et nesciunt.</p>
+                  <h2 class="font-medium">intern </h2>
+                  <p class="text-sm">Completed a 4-week internship in AI/ML under the IBM SkillsBuild Program with CSRBOX, gaining foundational knowledge, hands-on experience, and exposure to real-world applications in socially impactful domains.</p>
                 </div>
                 <div class="relative">
                   <div class="absolute -left-22 w-4 h-4 bg-yellow-600 rounded-full"></div>
-                  <h2 class="font-medium">Visual Designer</h2>
-                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae sit ipsam reiciendis consequuntur quidem natus mollitia nam rem, assumenda odio architecto eius ea nulla ut totam enim et nesciunt.</p>
+                  <h2 class="font-medium">Member</h2>
+                  <p class="text-sm">Part of an inclusive platform that empowers engineering students by fostering collaboration, real-world project exposure, and continuous skill development. Contributed to an environment focused on learning, mentorship, and technical growth. Engaged in programming challenges, project-based learning, and peer-to-peer collaboration.</p>
                 </div>
               </div>
             </div>
         </section>
         <!-- latest work section -->
-         <section class="bg-white h-max mt-10 py-10 text-teal-950 ">
+         <section class="bg-white h-max mt-10 py-10 text-teal-950 " id="works">
             <div class="flex flex-col gap-3  justify-start ml-10">
                 <h1 class="text-6xl font-bold text-teal-950 font-poppins">My Latest Work</h1>
                 <p>Perfect solution for digital experience</p>
             </div>
-           <div class="grid grid-cols-3 mt-10">
-            <div class="p-10"><a href="https://golden-sorbet-61fa36.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project1.png" alt="project1"></a></div>
+           <div class="grid grid-col-1 sm:grid-cols-3 mt-10">
+            <div class="p-10"><a href="https://github.com/eesa-ma/smart-sevice-allocation-system.git" target="_blank" rel="noopener noreferrer"><img src="img/project1.png" alt="project1"></a></div>
             <div class="p-10"><a href="https://golden-sorbet-61fa36.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project2.png" alt="project2"></a></div>
-            <div class="p-10"><a href="https://golden-sorbet-61fa36.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project3.png" alt="project3"></a></div>
-            <div class="p-10"><a href="https://golden-sorbet-61fa36.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project4.png" alt="project4"></a></div>
-            <div class="p-10"><a href="https://golden-sorbet-61fa36.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project5.png" alt="project5"></a></div>
-            <div class="p-10"><a href="https://golden-sorbet-61fa36.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project6.png" alt="project6"></a></div>
+            <div class="p-10"><a href="https://jade-puffpuff-3ce30c.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project3.png" alt="project3"></a></div>
+            <div class="p-10"><a href="https://mellifluous-peony-b7eec6.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project4.png" alt="project4"></a></div>
+            <div class="p-10"><a href="https://bespoke-cucurucho-fd9b38.netlify.app/#" target="_blank" rel="noopener noreferrer"><img src="img/project5.png" alt="project5"></a></div>
+            <div class="p-10"><a href="https://thunderous-choux-bf7c1f.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="img/project6.png" alt="project6"></a></div>
            </div>
          </section>
          <!-- footer -->
-          <section class="bg-[#f9f8f3] h-max py-20 text-teal-950 flex justify-around mt-10 ">
+          <section class="bg-[#f9f8f3] h-max py-20 text-teal-950 grid grid-cols-1 sm:flex justify-around mt-10 ">
             <div class="flex flex-col gap-10 text-4xl font-medium">
               <h1>Let's make  something <br> amazing together</h1>
-              <h1>Start by <span class="text-red-600">saying hii</span></h1>
+              <h1>Start by <a class="text-red-600" href="https://wa.me/qr/45KNTXBQPBUOG1" target="_blank" rel="noopener noreferrer">saying hii</a></h1>
             </div>
             <div>
-              <ul class="flex flex-col space-y-10">
-                <li class="text-teal-500"><a href="#">( SERVICES )</a></li>
-                <li><a href="#">WORKS</a></li>
-                <li><a href="#">RESUME </a></li>
-                <li><a href="#">EXPERIENCES</a></li>
+              <ul class="flex space-x-10 mt-10 flex-wrap sm:flex-col space-y-10">
+                <li class="text-teal-500"><a href="#services">( SERVICES )</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="/portfolio/doc/resume.pdf" target="_blank" rel="noopener noreferrer">RESUME </a></li>
+                <li><a href="#experience">EXPERIENCES</a></li>
             </ul>
             </div>
           </section>
           <div class="h-0.5 bg-teal-800 border-1 border-teal-800 mx-15"></div>
           <footer>
             <div class="flex justify-around py-10">
-              <div class="text-2xl font-logo">eesa</div>
+              <div class="text-2xl font-logo"><a href="#">eesa</a></div>
               <div class="text-sm">© 2025 eesa. All rights reserved.</div>
               <div class="flex gap-5">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-github"></i>
+                <a href="https://www.facebook.com/share/12Jrm5f5th6/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/eesa.ma?igsh=emI5ajN1NmVleTF6" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/eesa-m-a-a37245264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/eesa-ma" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
               </div>
             </div>
           </footer>
