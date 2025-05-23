@@ -35,10 +35,10 @@
         </nav>
     </header> 
     <main>
-        <section class="grid grid-col-1 sm:grid-cols-3 gap-2 px-30 py-10 bg-[#f9f8f3] h-max">
+        <section class="grid grid-col-1 px-10 sm:grid-cols-3 gap-2 sm:px-30 sm:py-10 bg-[#f9f8f3] h-max">
             <!-- left sie -->
-           <div class="space-y-30 mt-10 text-left">
-            <h1 class="text-6xl font-bold text-teal-950 font-poppins">Hey There, <br> I'm Eesa</h1>
+           <div class="sm:space-y-30 mt-10 text-center sm:text-left">
+            <h1 class="text-5xl sm:text-6xl font-bold text-teal-950 font-poppins">Hey There, <br> I'm Eesa</h1>
             <p class="text-red-400 font-medium underline underline-offset-2 hidden sm:block"><a href="mailto:eesama30april04@gmail.com">eesama30april04@gmail.com</a></p>
             <p class="text-teal-950 font-poppins hidden sm:block"> <span class="text-5xl font-medium ">2</span> YEARS <br> EXPERIENCE</p>
            </div>
@@ -49,15 +49,16 @@
             <img src="/portfolio/img/eesa.png" alt="eesa" class="h-auto relative z-10 rounded-b-3xl" />
             <div class="absolute w-full h-full bg-teal-800 rounded-full blur-2xl rotate-[12deg] opacity-80"></div>
             <!-- right side -->
-            </div class="text-right">
-             <div class="space-y-[300px] text-right mt-10">
+             </div>
+             <div class="space-y-10 max-sm:mb-10 sm:space-y-[300px] text-center sm:text-right mt-10">
                 <p class="text-teal-950  font-poppins text-2xl">
                     I develop beautifully simple<br /> things, And I love what I do.
                 </p>
-                <p class="text-teal-950 font-poppins text-2xl hidden sm:block">I am a <span class="text-teal-500">Frontend Developer</span> <br> based in India.</p>
+                <p class="text-teal-950 font-poppins text-2xl">I am a <span class="text-teal-500">Frontend Developer</span> <br> based in India.</p>
             </div>
         </section>
-        <section class="grid grid-col-1 sm:flex justify-around text-teal-900 h-max my-10 py-25 bg-white" id="services">
+        <!-- services -->
+         <section class="grid grid-col-1 sm:flex justify-around text-teal-900 h-max my-10 py-25 bg-white" id="services">
           <!-- right side -->
           <div class="flex flex-col gap-10 font-medium text-lg ">
             <div class="border-2 border-gray-100 rounded-2xl py-10 px-30 shadow-lg"><i class="fa-solid fa-desktop fa-xl"></i> Frontend Development</div>
@@ -79,9 +80,9 @@
         <!-- experience  section -->
         <section class="bg-[#f9f8f3] h-max py-10 text-teal-950 items-center" id="experience">
             <div class="flex justify-center">
-                <h1 class="text-6xl font-bold text-teal-950 font-poppins">My Work Experience</h1>
+                <h1 class="text-5xl text-center sm:text-6xl font-bold text-teal-950 font-poppins">My Work Experience</h1>
             </div>
-            <div class="flex sm:mx-50 mt-10 gap-20 ">
+            <div class="flex sm:mx-50 mt-10 gap-5 sm:gap-20 ">
               <div class="hidden  sm:flex flex-col gap-25 sm:px-20">
                 <div>
                   <h2 class="font-medium">DataHex</h2>
@@ -98,19 +99,19 @@
               </div>
               <!-- line -->
               <div class="h-auto border-l-2 border-dotted border-teal-800 ml-10" ></div>
-              <div class="flex flex-col gap-10 w-1/3">
+              <div class="flex flex-col gap-10 sm:w-1/3">
                 <div class="relative">
-                   <div class="absolute -left-22 w-4 h-4 bg-teal-600 rounded-full"></div>
+                   <div class="absolute -left-7 sm:-left-22 w-4 h-4 bg-teal-600 rounded-full"></div>
                   <h2 class="font-medium">intern </h2>
                   <p class="text-sm">Completed an internship at a digital solutions firm focused on helping businesses with digital transformation. Gained exposure to digital consultancy practices and contributed to projects aimed at enhancing client digital presence and operational efficiency.</p>
                 </div>
                 <div class="relative">
-                  <div class="absolute -left-22 w-4 h-4 bg-red-600 rounded-full"></div>
+                  <div class="absolute -left-7 sm:-left-22 w-4 h-4 bg-red-600 rounded-full"></div>
                   <h2 class="font-medium">intern </h2>
                   <p class="text-sm">Completed a 4-week internship in AI/ML under the IBM SkillsBuild Program with CSRBOX, gaining foundational knowledge, hands-on experience, and exposure to real-world applications in socially impactful domains.</p>
                 </div>
                 <div class="relative">
-                  <div class="absolute -left-22 w-4 h-4 bg-yellow-600 rounded-full"></div>
+                  <div class="absolute -left-7 sm:-left-22 w-4 h-4 bg-yellow-600 rounded-full"></div>
                   <h2 class="font-medium">Member</h2>
                   <p class="text-sm">Part of an inclusive platform that empowers engineering students by fostering collaboration, real-world project exposure, and continuous skill development. Contributed to an environment focused on learning, mentorship, and technical growth. Engaged in programming challenges, project-based learning, and peer-to-peer collaboration.</p>
                 </div>
@@ -119,8 +120,8 @@
         </section>
         <!-- latest work section -->
          <section class="bg-white h-max mt-10 py-10 text-teal-950 " id="works">
-            <div class="flex flex-col gap-3  justify-start ml-10">
-                <h1 class="text-6xl font-bold text-teal-950 font-poppins">My Latest Work</h1>
+            <div class="flex flex-col gap-3  justify-start text-center sm:text-left sm:ml-10">
+                <h1 class="max-sm:text-5xl text-6xl font-bold text-teal-950 font-poppins">My Latest Work</h1>
                 <p>Perfect solution for digital experience</p>
             </div>
            <div class="grid grid-col-1 sm:grid-cols-3 mt-10">
@@ -133,13 +134,13 @@
            </div>
          </section>
          <!-- footer -->
-          <section class="bg-[#f9f8f3] h-max py-20 text-teal-950 grid grid-cols-1 sm:flex justify-around mt-10 ">
-            <div class="flex flex-col gap-10 text-4xl font-medium">
+          <section class="bg-[#f9f8f3] h-max py-10 sm:py-20 text-teal-950 grid grid-cols-1 sm:flex justify-around mt-10 ">
+            <div class="flex flex-col gap-5 sm:gap-10 text-3xl max-sm:text-center sm:text-4xl font-medium">
               <h1>Let's make  something <br> amazing together</h1>
               <h1>Start by <a class="text-red-600" href="https://wa.me/qr/45KNTXBQPBUOG1" target="_blank" rel="noopener noreferrer">saying hii</a></h1>
             </div>
             <div>
-              <ul class="flex space-x-10 mt-10 flex-wrap sm:flex-col space-y-10">
+              <ul class="flex max-sm:justify-around mt-10 flex-wrap sm:flex-col sm:space-y-10">
                 <li class="text-teal-500"><a href="#services">( SERVICES )</a></li>
                 <li><a href="#works">WORKS</a></li>
                 <li><a href="/portfolio/doc/resume.pdf" target="_blank" rel="noopener noreferrer">RESUME </a></li>
@@ -149,10 +150,10 @@
           </section>
           <div class="h-0.5 bg-teal-800 border-1 border-teal-800 mx-15"></div>
           <footer>
-            <div class="flex justify-around py-10">
+            <div class="grid grid-cols-1 text-center space-y-2 sm:flex sm:justify-around sm:py-10">
               <div class="text-2xl font-logo"><a href="#">eesa</a></div>
               <div class="text-sm">© 2025 eesa. All rights reserved.</div>
-              <div class="flex gap-5">
+              <div class="flex justify-center gap-5">
                 <a href="https://www.facebook.com/share/12Jrm5f5th6/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/eesa.ma?igsh=emI5ajN1NmVleTF6" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/eesa-m-a-a37245264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
